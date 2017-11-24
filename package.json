@@ -1,0 +1,14 @@
+{
+  "name": "labelr",
+  "version": "1.0.0",
+  "description": "Manage labels for gihub issues, based on http://learn.humanjavascript.com/react-ampersand",
+  "main": "index.js",
+  "scripts": {
+    "deploy" : "surge -p public -d labr.surge.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "surge": "^0.19.0"
+  }
+}
