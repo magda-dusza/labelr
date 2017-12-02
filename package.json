@@ -6,8 +6,8 @@
   "scripts": {
     "deploy": "surge -p public -d labr.surge.sh",
     "prebuild": "rmdir /Q /S public && mkdir public",
-	"build": "set NODE_ENV=production&& webpack"
-	"start": "webpack-dev-server --port 3004", 
+	"build": "set NODE_ENV=production&& webpack",
+	"start": "webpack-dev-server --port 3004",
 	"yolo": "npm run build && npm run deploy"
   },
   "author": "",
